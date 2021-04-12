@@ -1,3 +1,4 @@
+
 def DisplayOptions(options):
     for i in range(len(options)):
         print("{} - {}".format(i+1, options[i]))
@@ -22,6 +23,9 @@ while choice:
             print("U need to enter a number")
     else:
         print("-----END-----")
+
+
+
 
 
 
